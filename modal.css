@@ -19,10 +19,6 @@
   text-decoration: none;
 }
 
-.menu-overlay h3{
-  color: white;
-}
-
-.menu-overlay p{
+.menu-overlay{
   color: white;
 }
