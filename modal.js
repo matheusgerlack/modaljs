@@ -1,11 +1,14 @@
 //START MODAL
 
+  //appends the overlay to the body
+  $('.overlay').appendTo('body');
+
   //show mobile navigation when click the button
   $("#open-modal").click(function(event){
 
     event.preventDefault();
 
-    $('.menu-overlay').fadeIn();
+    $('.overlay').fadeIn();
    
   });
 
@@ -14,7 +17,7 @@
   $(".btn-close").click(function(event){
 
     event.preventDefault();
-    $('.menu-overlay').fadeOut('fast');
+    $('.overlay').fadeOut('fast');
 
   });
 
