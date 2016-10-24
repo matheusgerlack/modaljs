@@ -1,0 +1,28 @@
+.menu-overlay{
+  display: none;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  z-index: 999;
+  background: rgba(0,0,0,.9);
+  left: 0;
+  padding: 10% 30%;
+}
+
+.btn-close{
+  color: white;
+  float: right;
+  font-size: 50px;
+  margin: 0;
+  text-decoration: none;
+}
+
+.menu-overlay h3{
+  color: white;
+}
+
+.menu-overlay p{
+  color: white;
+}
